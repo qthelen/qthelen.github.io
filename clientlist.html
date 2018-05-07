@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Thelen Client List</title>
+
+    <meta name="author" content="Quentin Thelen" >
+    <meta name="keywords" content="resume, education, work, music production,
+     producer, mixing, mastering, music">
+    <meta name="description" content="This website is about my work.">
+
+    <link rel="stylesheet" href="css/clientsdesktop.css" media="only screen and (min-width: 650px)">
+
+    <link rel="stylesheet" href="css/clientsmobile.css" media="only screen and (max-width: 650px)">
+
+    <style>
+
+
+    </style>
+
+  </head>
+
+
+
+  <body>
+
+    <header>
+      <h1 class="title"><span class="zoom">Thelen</span></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="clientlist.html">Client List</a></li>
+		      <li>
+		          <a href="https://www.facebook.com/Thelen-236197720275881/" target="_blank" >
+			             <div>
+				                 <img src="images/facebook.png" alt="" />
+			             </div>
+		          </a>
+	        </li>
+		      <li>
+		          <a href="https://twitter.com/XceptionMusic" target="_blank" >
+			             <div>
+				                 <img src="images/twitter.png" alt="" />
+			             </div>
+		          </a>
+	        </li>
+		      <li>
+		          <a href="https://www.youtube.com/channel/UCGN6-BHlqRkVpjI4DxJutHQ" target="_blank" >
+			             <div>
+				                 <img src="images/youtube.png" alt="" />
+			             </div>
+		          </a>
+	        </li>
+
+
+		</ul></div>
+
+
+
+      </nav>
+    </header>
+
+    <main>
+
+<br><br>
+      <div id="clientgrid">
+
+        <div>
+          <h2 class="title center"><span class="zoom">Artists I've Worked With!</span></h2> <br> </div> <div> </div>
+        <div>
+          <h4 class="center"><a href=https://soundcloud.com/lucia-izzolo> Lucia </a></h4>
+        </div>
+        <div></div>
+        <div>
+          <h4 class="center"><a href=https://soundcloud.com/lovenicolemusic> Nicole </a></h4>
+        </div>
+        <div></div>
+        <div>
+          <h4 class="center"><a href=https://soundcloud.com/phil-li-4> Philly </a></h4>
+        </div>
+        <div></div>
+        <div>
+          <h4 class="center"><a href=https://soundcloud.com/sandy-beaches-3> Sandy Beaches </a></h4>
+        </div>
+        <div></div>
+        <div>
+          <h4 class="center"><a href=https://soundcloud.com/mattgagnonmusic> Matt Gagnon </a></h4>
+        </div>
+        <div></div>
+        <div>
+          <h4 class="center">For production, mixing, or mastering inquiries please contact me at:<br>
+              <a href="mailto:qthelen10@gmail.com?Subject=Production%20Inquiry" target="_top">qthelen10@gmail.com</a></h4>
+        </div>
+
+      </div>
+
+      <script src="zoomerang.js"></script>
+      <script>
+          Array.prototype.forEach.call(document.querySelectorAll('p'), function (p, i) {
+              p.style.marginLeft = i * 6 + '%'
+          })
+          Zoomerang
+              .config({
+                  maxHeight: 400,
+                  maxWidth: 400,
+                  bgColor: '#000',
+                  bgOpacity: .85,
+                  onOpen: openCallback,
+                  onClose: closeCallback,
+                  onBeforeOpen: beforeOpenCallback,
+                  onBeforeClose: beforeCloseCallback
+              })
+              .listen('.zoom')
+
+          function openCallback (el) {
+              console.log('zoomed in on: ')
+              console.log(el)
+          }
+
+          function closeCallback (el) {
+              console.log('zoomed out on: ')
+              console.log(el)
+          }
+
+          function beforeOpenCallback (el) {
+            console.log('on before zoomed in on:')
+            console.log(el)
+          }
+
+          function beforeCloseCallback (el) {
+            console.log('on before zoomed out on:')
+            console.log(el)
+          }
+
+      </script>
+
+
+    </main>
+
+
+
+
+
+  </body>
+
+
+
+
+
+
+
+</html>

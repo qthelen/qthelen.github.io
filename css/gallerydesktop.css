@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+
+body{
+  background-color: darkgrey;
+  font-family: 'Oswald', sans-serif;
+}
+
+#gallerygrid{
+  height: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: lightgrey;
+}
+
+#gallerygrid2{
+  height: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: lightgrey;
+}
+
+.title{
+  color:darkblue
+}
+
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.center{
+  text-align: center;
+}
+
+
+nav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border-color: black;
+  border-width: 30px;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: lightgrey;
+}

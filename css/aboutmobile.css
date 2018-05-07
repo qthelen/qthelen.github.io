@@ -1,0 +1,39 @@
+@import "contactdesktop.css";
+
+
+#contactgrid{
+  grid-template-rows: 0.5fr 0fr 1fr 0fr 0.5fr 0fr 1fr;
+  grid-template-columns: 95%;
+}
+
+.lefttext{
+  padding-left: 10px;
+}
+
+.title{
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  background-color:lightblue;
+  border-color: black;
+  border-width: 30px;
+}
+
+nav ul li{
+  display:inline;
+}
+
+nav ul li a {
+    padding: 0px 5px;
+}

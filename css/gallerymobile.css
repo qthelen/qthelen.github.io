@@ -1,0 +1,40 @@
+@import "gallerydesktop.css";
+
+
+#gallerygrid{
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+}
+
+#gallerygrid2{
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+}
+
+.title{
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:lightblue;
+  border-color: black;
+  border-width: 30px;
+}
+
+nav ul li{
+  display:inline;
+}
+
+nav ul li a {
+    padding: 0px 5px;
+}
